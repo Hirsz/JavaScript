@@ -4,8 +4,13 @@
       <script language="JavaScript">
        var liczba1=prompt("Podaj pierwszą liczbę A=","");
        var liczba2=prompt("Podaj drugą liczbę B=","");
-       var a_h=parseFloat(liczba1);
-       var b_h=parseFloat(liczba2);
+       var a=parseFloat(liczba1);
+       var b=parseFloat(liczba2);
+suma1=a*a*a;
+suma2=3*(a*a)*b;
+suma3=3*a*(b*b);
+suma4=b*b*b;
+suma5=suma1+suma2+suma3+suma4;
 document.write("wczytane liczby: A="+a_h+" B="+b_h+"<br>");
 document.write("("+a_h+" + "+b_h+")^3=");
 document.write(+a_h+"^3");
@@ -13,6 +18,9 @@ document.write("+3*"+a_h+"^2*"+b_h);
 document.write("+3*"+a_h+"*"+b_h+"^2");
 document.write("+"+b_h+"^3");
 document.write("=");
+document.write("+suma1+" + "+suma2+" + "+suma3+" + "+suma4+"); 
+document.write("=");
+document.write("+suma5+");
 </script>
 </div>
 </body>
