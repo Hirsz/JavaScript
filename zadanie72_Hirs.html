@@ -1,1 +1,35 @@
-
+<html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title> Zadanie 72 </title>
+<script language="JavaScript">
+var a=prompt("Podaj wysokosc a=", "");
+var a_hir=a;
+var b=prompt("Podaj szerokosc b=", "");
+var b_hir=b;
+for (var i=1; i<=b_hir; i++)
+{
+document.write("*");
+}
+document.write("<br>");
+var wiersz_hir="*";
+for ( var i=1; i<=(b-2); i++)
+{
+wiersz_hir=wiersz_hir+"&nbsp&nbsp";
+}
+wiersz_hir=wiersz_hir+"*";
+for (var i=1; i<=a_hir; i++)
+{
+document.write(wiersz_hir);
+document.write("<br>");
+} 
+for (var i=1; i<=b_hir; i++)
+{
+document.write("*");
+}
+</script>
+</head>
+<body>
+</body>
+</html>
